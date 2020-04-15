@@ -22,8 +22,9 @@ body {
 
 
 
-
-
+a:active{
+	background-color: none;	
+}
 
 
 
@@ -45,23 +46,25 @@ body {
 }
 
 .button{
-	border: 2px solid #151515;
+	border: 2px solid  #6A6A6A;
 	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
-	font-size: 140%;
-	background-color: #191818;
-	color: white;
+	font-size: 120%;
+	background-color: ;
+	border-radius: 10px;
+	color: black;
 	margin-bottom: 5%;
 	padding-top: 2%;
 	padding-bottom: 2%;
 	padding-left: 3%;
 	padding-right: 3%;
+
 }
 
 .button:active{
-	background-color: white;
-	color: #191818;
+	background-color: #939393;
+	color: white;
 	
 }
 
@@ -212,6 +215,8 @@ h2
 	color: darkslategray;
 	font-size: 140%;
 }
+
+
 h4
 {
 	font-size: 170%;
@@ -405,6 +410,24 @@ p{
 	margin-left: auto;
 	margin-right: auto;
 
+
+}
+
+
+
+.on_class2{
+	text-align: justify;
+	width: 90%;
+	box-shadow: 2px 2px 9px #0E0E0E;
+	padding-top: 3%;
+	padding-bottom: 8% ;
+	padding-left: 3%;
+	padding-right: 3%;
+	border-radius: 20px;
+	margin-bottom: 4%;
+	margin-top: 2%;
+	margin-left: auto;
+	margin-right: auto;
 
 }
 
